@@ -1,0 +1,58 @@
+{
+  "vpc-provider:account=392194582387:filter.tag:Name=EksVpc:filter.vpc-id=vpc-08fcf91d258dccdb7:region=ap-southeast-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-08fcf91d258dccdb7",
+    "vpcCidrBlock": "192.168.0.0/16",
+    "ownerAccountId": "392194582387",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "PublicSubnet",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0c573ae6a339da789",
+            "cidr": "192.168.0.0/24",
+            "availabilityZone": "ap-southeast-1a",
+            "routeTableId": "rtb-0d54a883b70715b26"
+          },
+          {
+            "subnetId": "subnet-016c70667cfb58d12",
+            "cidr": "192.168.1.0/24",
+            "availabilityZone": "ap-southeast-1b",
+            "routeTableId": "rtb-0d0cbe726185228a0"
+          },
+          {
+            "subnetId": "subnet-03a465d6eb9f7f9ac",
+            "cidr": "192.168.2.0/24",
+            "availabilityZone": "ap-southeast-1c",
+            "routeTableId": "rtb-0725a272cb58b7222"
+          }
+        ]
+      },
+      {
+        "name": "PrivateSubnetNat",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0fc42041cb4b173ee",
+            "cidr": "192.168.3.0/24",
+            "availabilityZone": "ap-southeast-1a",
+            "routeTableId": "rtb-0a4ed744d0e08ffbe"
+          },
+          {
+            "subnetId": "subnet-059f13318bdf0d3a4",
+            "cidr": "192.168.4.0/24",
+            "availabilityZone": "ap-southeast-1b",
+            "routeTableId": "rtb-0b7d799fb77f9d547"
+          },
+          {
+            "subnetId": "subnet-0c38e5372c5f004c8",
+            "cidr": "192.168.5.0/24",
+            "availabilityZone": "ap-southeast-1c",
+            "routeTableId": "rtb-06de79d3896f71d82"
+          }
+        ]
+      }
+    ]
+  }
+}
