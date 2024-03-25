@@ -54,7 +54,7 @@ def update_service():
     # update service
     response = ecs.update_service(
         cluster=cluster,
-        service="SwinMicroService-PHPBookService3A5A1B00-QCLSoeByisLJ",
+        service="",
         forceNewDeployment=True,
     )
     print(response)
